@@ -111,3 +111,10 @@ button:hover {
   /*u can use vertical-align: middle; this section or position and top properties in monthly section to align price and monthly as seen above.*/
   margin-bottom: 10px;
 }
+
+@media (max-width: 650px) {
+  .bottom-left, .bottom-right, .pricecard {
+    width: 100%;
+    height: auto;
+  } 
+}
